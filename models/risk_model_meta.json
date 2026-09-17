@@ -1,0 +1,89 @@
+{
+  "algorithm": "LightGBM Regressor",
+  "target": "Operational Failure Risk & Priority Score (0-100)",
+  "feature_columns": [
+    "asset_age_years",
+    "last_maintenance_days_ago",
+    "past_breakdown_count",
+    "gross_million_tonnes",
+    "condition_score",
+    "urgency_level"
+  ],
+  "urgency_encoding": {
+    "LOW": 0,
+    "MEDIUM": 1,
+    "HIGH": 2,
+    "CRITICAL": 3
+  },
+  "metrics": {
+    "cv_5fold": {
+      "mean_mae": 2.57957332031922,
+      "mean_rmse": 3.5068017350848053,
+      "mean_r2": 0.9810203144321434,
+      "maes": [
+        2.842,
+        2.926,
+        2.686,
+        2.025,
+        2.419
+      ],
+      "r2s": [
+        0.9838,
+        0.9569,
+        0.9879,
+        0.9902,
+        0.9863
+      ]
+    },
+    "full_dataset": {
+      "mae": 0.8626058025238301,
+      "rmse": 1.0922399029342964,
+      "r2": 0.9983709598580224
+    },
+    "feature_importances": {
+      "asset_age_years": 271,
+      "last_maintenance_days_ago": 279,
+      "past_breakdown_count": 166,
+      "gross_million_tonnes": 267,
+      "condition_score": 339,
+      "urgency_level": 78
+    }
+  },
+  "distribution_summary": {
+    "count": 240,
+    "min": 2.91,
+    "max": 94.43,
+    "mean": 37.68633333333334,
+    "std": 26.83701886491038,
+    "p10": 9.753,
+    "p25": 13.7075,
+    "p50_median": 40.010000000000005,
+    "p75": 55.185,
+    "p90": 83.692,
+    "bin_counts": [
+      27,
+      77,
+      14,
+      1,
+      36,
+      47,
+      2,
+      5,
+      20,
+      11
+    ],
+    "bin_edges": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0
+    ]
+  }
+}

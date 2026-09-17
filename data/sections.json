@@ -1,0 +1,90 @@
+[
+  {
+    "section_id": "SEC-NDLS-TKJ",
+    "name": "New Delhi - Tilak Bridge",
+    "line_type": "QUADRUPLE",
+    "start_station": "NDLS",
+    "end_station": "TKJ",
+    "start_km": 0.0,
+    "end_km": 3.5,
+    "max_speed_kmh": 110,
+    "traffic_density_index": 1.85
+  },
+  {
+    "section_id": "SEC-TKJ-GZB",
+    "name": "Tilak Bridge - Ghaziabad Jn",
+    "line_type": "DOUBLE",
+    "start_station": "TKJ",
+    "end_station": "GZB",
+    "start_km": 3.5,
+    "end_km": 25.0,
+    "max_speed_kmh": 130,
+    "traffic_density_index": 1.7
+  },
+  {
+    "section_id": "SEC-GZB-ALJN",
+    "name": "Ghaziabad Jn - Aligarh Jn",
+    "line_type": "DOUBLE",
+    "start_station": "GZB",
+    "end_station": "ALJN",
+    "start_km": 25.0,
+    "end_km": 131.0,
+    "max_speed_kmh": 130,
+    "traffic_density_index": 1.6
+  },
+  {
+    "section_id": "SEC-ALJN-TDL",
+    "name": "Aligarh Jn - Tundla Jn",
+    "line_type": "DOUBLE",
+    "start_station": "ALJN",
+    "end_station": "TDL",
+    "start_km": 131.0,
+    "end_km": 205.0,
+    "max_speed_kmh": 130,
+    "traffic_density_index": 1.55
+  },
+  {
+    "section_id": "SEC-TDL-CNB",
+    "name": "Tundla Jn - Kanpur Central",
+    "line_type": "DOUBLE",
+    "start_station": "TDL",
+    "end_station": "CNB",
+    "start_km": 205.0,
+    "end_km": 435.0,
+    "max_speed_kmh": 130,
+    "traffic_density_index": 1.65
+  },
+  {
+    "section_id": "SEC-CNB-PRYJ",
+    "name": "Kanpur Central - Prayagraj Jn",
+    "line_type": "DOUBLE",
+    "start_station": "CNB",
+    "end_station": "PRYJ",
+    "start_km": 435.0,
+    "end_km": 629.0,
+    "max_speed_kmh": 130,
+    "traffic_density_index": 1.5
+  },
+  {
+    "section_id": "SEC-PRYJ-DDU",
+    "name": "Prayagraj Jn - Pt. Deen Dayal Upadhyaya Jn",
+    "line_type": "DOUBLE",
+    "start_station": "PRYJ",
+    "end_station": "DDU",
+    "start_km": 629.0,
+    "end_km": 782.0,
+    "max_speed_kmh": 130,
+    "traffic_density_index": 1.75
+  },
+  {
+    "section_id": "SEC-GZB-MB",
+    "name": "Ghaziabad Jn - Moradabad Jn",
+    "line_type": "DOUBLE",
+    "start_station": "GZB",
+    "end_station": "MB",
+    "start_km": 25.0,
+    "end_km": 165.0,
+    "max_speed_kmh": 120,
+    "traffic_density_index": 1.35
+  }
+]

@@ -1,0 +1,9 @@
+section_id,name,line_type,start_station,end_station,start_km,end_km,max_speed_kmh,traffic_density_index
+SEC-NDLS-TKJ,New Delhi - Tilak Bridge,QUADRUPLE,NDLS,TKJ,0.0,3.5,110,1.85
+SEC-TKJ-GZB,Tilak Bridge - Ghaziabad Jn,DOUBLE,TKJ,GZB,3.5,25.0,130,1.7
+SEC-GZB-ALJN,Ghaziabad Jn - Aligarh Jn,DOUBLE,GZB,ALJN,25.0,131.0,130,1.6
+SEC-ALJN-TDL,Aligarh Jn - Tundla Jn,DOUBLE,ALJN,TDL,131.0,205.0,130,1.55
+SEC-TDL-CNB,Tundla Jn - Kanpur Central,DOUBLE,TDL,CNB,205.0,435.0,130,1.65
+SEC-CNB-PRYJ,Kanpur Central - Prayagraj Jn,DOUBLE,CNB,PRYJ,435.0,629.0,130,1.5
+SEC-PRYJ-DDU,Prayagraj Jn - Pt. Deen Dayal Upadhyaya Jn,DOUBLE,PRYJ,DDU,629.0,782.0,130,1.75
+SEC-GZB-MB,Ghaziabad Jn - Moradabad Jn,DOUBLE,GZB,MB,25.0,165.0,120,1.35
