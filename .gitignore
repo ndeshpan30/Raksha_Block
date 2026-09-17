@@ -6,3 +6,11 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .env*
+node_modules/
+.next/
+frontend/.next/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env*
+data/*.db
