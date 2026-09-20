@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+lightgbm
+ortools
+joblib
+pandas
+numpy
