@@ -10,9 +10,12 @@ import {
   BlockExplanation,
   BlockActionResponse,
   SystemHealth,
+  BaselineComparison, // Added missing import to prevent TypeScript compilation errors
 } from '@/types/raksha';
 
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:8000';
+// Updated to check NEXT_PUBLIC_API_BASE_URL (from our Vercel setup)
+// while keeping NEXT_PUBLIC_BACKEND_URL as a fallback to ensure nothing breaks locally.
+const BACKEND_URL = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:8000';
 
 /**
  * Check backend health status
@@ -326,4 +329,3 @@ export async function fetchBaselineComparison(): Promise<BaselineComparison | nu
   }
   return null;
 }
-
